@@ -1,0 +1,12 @@
+{"compilerOptions": {
+  "jsx": "react", // или "preserve" или "react-jsx" в зависимости от вашей среды
+  "jsxFactory": "React.createElement", // если используете React
+  "lib": ["dom", "es6"],
+  "allowSyntheticDefaultImports": true
+},
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
